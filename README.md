@@ -56,3 +56,6 @@ GitHub: https://github.com/MatetiRithvika123-prog
 ### License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
+Project customized and deployed by Mateti Rithvika.
+
