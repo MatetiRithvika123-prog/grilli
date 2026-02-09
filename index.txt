@@ -1,6 +1,7 @@
-Grilli - Amazing & Delicious Food
+Flame & Fork – Modern Restaurant Website
 
-This is a Restaurant html template made by codewithsadee
+Flame & Fork is a modern, fully responsive restaurant website built using HTML, CSS, and JavaScript.
+
 
 
 
@@ -22,7 +23,7 @@ booking@restaurant.com
 
 #---------- HEADER ----------#
 
-alt = Grilli - Home
+alt = Flame & Fork- Home
 
 aria-label = close menu
 <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
@@ -40,7 +41,7 @@ London 9578, UK
 
 Open: 9.30 am - 2.30pm
 
-booking@grilli.com
+booking@Flame & Fork.com
 
 Booking Request
 +88-123-123456
@@ -53,7 +54,7 @@ aria-label = open menu
 
 #---------- HERO ----------#
 
-Tradational & Hygine
+Traditional & Hygienic
 
 For the love of
 delicious food
@@ -90,7 +91,9 @@ Flavors For Royalty
 
 We Offer Top Notch
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has been the industrys standard dummy text ever.
+We offer carefully curated menus, warm hospitality,
+and a refined dining experience designed for families,
+friends, and food lovers.
 
 alt = Breakfast
 
@@ -109,7 +112,7 @@ alt = shape
 
 Our Story
 
-Every Fla vor Tells a Story
+Every Flavor Tells a Story
 
 Lorem Ipsum is simply dummy text of the printingand typesetting industry lorem Ipsum has been the industrys standard dummy text ever since the when an unknown printer took a galley of type and scrambled it to make a type specimen book It has survived not only five centuries, but also the leap into.
 
@@ -133,8 +136,9 @@ Special Dish
 
 Lobster Tortellini
 
-Lorem Ipsum is simply dummy text of the printingand typesetting industry lorem Ipsum has been the industrys standard dummy text ever since the when an unknown printer took a galley of type.
-
+At Flame & Fork, we believe great food begins with passion.
+Our chefs craft every dish using fresh ingredients, bold spices,
+and time-honored cooking techniques to deliver unforgettable flavors.
 $40.00
 $20.00
 
@@ -142,7 +146,7 @@ View All Menu
 
 
 
-#---------- MANU ----------#
+#---------- MENU ----------#
 
 Special Selection
 
@@ -291,15 +295,15 @@ Upcoming Event
 
 alt = Flavour so good you’ll try to eat with your eyes.
 
-15/09/2022
+15/03/2026
 Food, Flavour
 Flavour so good you’ll try to eat with your eyes.
 
-08/09/2022
+08/03/2026
 Healthy Food
 
-03/09/2022
-Recipie
+03/03/2026
+Recipe
 
 View Our Blog
 
@@ -307,11 +311,11 @@ View Our Blog
 
 #---------- FOOTER ----------#
 
-alt = grilli home
+alt = Flame & Fork home
 
 Restaurant St, Delicious City, London 9578, UK
 
-booking@grilli.com
+booking@Flame & Fork.com
 
 Booking Request : +88-123-123456
 
@@ -339,11 +343,7 @@ Twitter
 Youtube
 Google Map
 
-&copy; 2022 Grilli. All Rights Reserved | Crafted by
-
-https://github.com/codewithsadee
-
-codewithsadee
+&copy; 2026 Flame & Fork. All Rights Reserved | Crafted by Mateti Rithvika
 
 
 

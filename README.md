@@ -1,19 +1,11 @@
 <div align="center">
-  
-  ![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/grilli)
-  ![GitHub stars](https://img.shields.io/github/stars/codewithsadee/grilli?style=social)
-  ![GitHub forks](https://img.shields.io/github/forks/codewithsadee/grilli?style=social)
-[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
-  [![YouTube Video Views](https://img.shields.io/youtube/views/CjVGp5kGHxA?style=social)](https://youtu.be/CjVGp5kGHxA)
+  <h2 align="center">Flame & Fork - Restaurant Website</h2>
 
-  <br />
-  <br />
+Flame & Fork is a fully responsive modern restaurant website
+built using HTML, CSS, and JavaScript with a clean UI and
+interactive features.
 
-  <h2 align="center">Grilli - Restaurant Website</h2>
-
-  Grilli is a fully responsive restaurant website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
-
-  <a href="https://codewithsadee.github.io/grilli/"><strong>➥ Live Demo</strong></a>
+  <a href="https://MatetiRithvika123-prog.github.io/grilli/"><strong>➥ Live Demo</strong></a>
 
 </div>
 
@@ -21,7 +13,19 @@
 
 ### Demo Screeshots
 
-![Grilli Desktop Demo](./readme-images/desktop.png "Desktop Demo")
+![Flame & Fork Desktop Demo](./readme-images/desktop.png "Desktop Demo")
+
+## Features
+- Fully responsive design (mobile, tablet, desktop)
+- Modern restaurant UI
+- Online table reservation form with validation
+- Clean and user-friendly layout
+
+## Technologies Used
+- HTML5
+- CSS3
+- JavaScript
+
 
 ### Prerequisites
 
@@ -31,23 +35,23 @@ Before you begin, ensure you have met the following requirements:
 
 ### Run Locally
 
-To run **Grilli** locally, run this command on your git bash:
+To run **Flame & Fork** locally, run this command on your git bash:
 
 Linux and macOS:
 
 ```bash
-sudo git clone https://github.com/codewithsadee/grilli.git
+git clone https://github.com/MatetiRithvika123-prog/grilli.git
 ```
 
 Windows:
 
 ```bash
-git clone https://github.com/codewithsadee/grilli.git
+git clone https://github.com/MatetiRithvika123-prog/grilli.git
 ```
-
 ### Contact
 
-If you want to contact with me you can reach me at [Twitter](https://www.twitter.com/codewithsadee).
+Created by **Mateti Rithvika**  
+GitHub: https://github.com/MatetiRithvika123-prog
 
 ### License
 

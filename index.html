@@ -9,9 +9,9 @@
   <!-- 
     - primary meta tags
   -->
-  <title>Grilli - Amazing & Delicious Food</title>
-  <meta name="title" content="Grilli - Amazing & Delicious Food">
-  <meta name="description" content="This is a Restaurant html template made by codewithsadee">
+  <title>Flame & Fork | Modern Restaurant</title>
+  <meta name="title" content="Flame & Fork - Modern Restaurant">
+  <meta name="description" content="Flame & Fork is a modern, fully responsive restaurant website featuring handcrafted dishes, elegant design, and smooth user interactions.">
 
   <!-- 
     - favicon
@@ -36,6 +36,17 @@
   <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg">
   <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg">
   <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
+<style>
+  .logo img {
+            max-height: 48px;
+            width: auto;
+            object-fit: contain;
+          }
+          .navbar .logo img {
+            max-height: 45px;
+            margin: 0 auto;
+          }
+</style>
 
 </head>
 
@@ -47,7 +58,7 @@
 
   <div class="preload" data-preaload>
     <div class="circle"></div>
-    <p class="text">Grilli</p>
+    <p class="text">Flame & Fork</p>
   </div>
 
 
@@ -81,22 +92,22 @@
         <span class="span">Daily : 8.00 am to 10.00 pm</span>
       </div>
 
-      <a href="tel:+11234567890" class="topbar-item link">
+      <a href="tel:+91234567890" class="topbar-item link">
         <div class="icon">
           <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
         </div>
 
-        <span class="span">+1 123 456 7890</span>
+        <span class="span">+91 234 567 890</span>
       </a>
 
       <div class="separator"></div>
 
-      <a href="mailto:booking@restaurant.com" class="topbar-item link">
+      <a href="mailto:booking@flamefork.com" class="topbar-item link">
         <div class="icon">
           <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
         </div>
 
-        <span class="span">booking@restaurant.com</span>
+        <span class="span">booking@flamefork.com</span>
       </a>
 
     </div>
@@ -114,7 +125,7 @@
     <div class="container">
 
       <a href="#" class="logo">
-        <img src="./assets/images/logo.svg" width="160" height="50" alt="Grilli - Home">
+        <img src="./assets/images/logo.png" width="160" height="50" alt="Flame & Fork - Home">
       </a>
 
       <nav class="navbar" data-navbar>
@@ -124,7 +135,7 @@
         </button>
 
         <a href="#" class="logo">
-          <img src="./assets/images/logo.svg" width="160" height="50" alt="Grilli - Home">
+          <img src="./assets/images/logo.png" width="160" height="50" alt="Flame & Fork - Home">
         </a>
 
         <ul class="navbar-list">
@@ -181,14 +192,14 @@
 
           <p class="body-4 navbar-text">Open: 9.30 am - 2.30pm</p>
 
-          <a href="mailto:booking@grilli.com" class="body-4 sidebar-link">booking@grilli.com</a>
+          <a href="mailto:booking@flamefork.com" class="body-4 sidebar-link">booking@flamefork.com</a>
 
           <div class="separator"></div>
 
           <p class="contact-label">Booking Request</p>
 
-          <a href="tel:+88123123456" class="body-1 contact-number hover-underline">
-            +88-123-123456
+          <a href="tel:+91 98765 43210" class="body-1 contact-number hover-underline">
+            +91 98765 43210
           </a>
         </div>
 
@@ -232,11 +243,11 @@
               <img src="./assets/images/hero-slider-1.jpg" width="1880" height="950" alt="" class="img-cover">
             </div>
 
-            <p class="label-2 section-subtitle slider-reveal">Tradational & Hygine</p>
+            <p class="label-2 section-subtitle slider-reveal">Authentic & Hygienic</p>
 
             <h1 class="display-1 hero-title slider-reveal">
-              For the love of <br>
-              delicious food
+              Where Fire Meets Flavor <br>
+              An Unforgettable Dining Experience
             </h1>
 
             <p class="body-2 hero-text slider-reveal">
@@ -435,17 +446,17 @@
 
             <p class="label-2 section-subtitle" id="about-label">Our Story</p>
 
-            <h2 class="headline-1 section-title">Every Fla vor Tells a Story</h2>
+            <h2 class="headline-1 section-title">Every Flavor Tells a Story</h2>
 
             <p class="section-text">
-              Lorem Ipsum is simply dummy text of the printingand typesetting industry lorem Ipsum has been the
-              industrys standard dummy text ever since the when an unknown printer took a galley of type and scrambled
-              it to make a type specimen book It has survived not only five centuries, but also the leap into.
+              At Flame & Fork, we believe great food begins with passion.
+              Our chefs craft each dish using fresh ingredients, bold spices,
+              and time-honored techniques to create unforgettable flavors.
             </p>
 
             <div class="contact-label">Book Through Call</div>
 
-            <a href="tel:+804001234567" class="body-1 contact-number hover-underline">+80 (400) 123 4567</a>
+            <a href="tel:+919876543210" class="body-1 contact-number hover-underline">+91 98765 43210</a>
 
             <a href="#" class="btn btn-primary">
               <span class="text text-1">Read More</span>
@@ -777,19 +788,19 @@
 
           <div class="form reservation-form bg-black-10">
 
-            <form action="" class="form-left">
+            <form action="" class="form-left" id="reservationForm">
 
               <h2 class="headline-1 text-center">Online Reservation</h2>
 
               <p class="form-text text-center">
-                Booking request <a href="tel:+88123123456" class="link">+88-123-123456</a>
+                Booking request <a href="tel:+91 98765 43210" class="link">+91 98765 43210</a>
                 or fill out the order form
               </p>
 
               <div class="input-wrapper">
-                <input type="text" name="name" placeholder="Your Name" autocomplete="off" class="input-field">
+                <input type="text" name="name" placeholder="Your Name" autocomplete="off" class="input-field" id="name">
 
-                <input type="tel" name="phone" placeholder="Phone Number" autocomplete="off" class="input-field">
+                <input type="tel" name="phone" placeholder="Phone Number" autocomplete="off" class="input-field" id="phone">
               </div>
 
               <div class="input-wrapper">
@@ -813,7 +824,7 @@
                 <div class="icon-wrapper">
                   <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
 
-                  <input type="date" name="reservation-date" class="input-field">
+                  <input type="date" name="reservation-date" class="input-field" id="date">
 
                   <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
                 </div>
@@ -845,6 +856,7 @@
               </div>
 
               <textarea name="message" placeholder="Message" autocomplete="off" class="input-field"></textarea>
+              <p id="formMessage" style="margin-top:10px; font-weight:600;"></p> 
 
               <button type="submit" class="btn btn-secondary">
                 <span class="text text-1">Book A Table</span>
@@ -860,7 +872,7 @@
 
               <p class="contact-label">Booking Request</p>
 
-              <a href="tel:+88123123456" class="body-1 contact-number hover-underline">+88-123-123456</a>
+              <a href="tel:+91 98765 43210" class="body-1 contact-number hover-underline">+91 98765 43210</a>
 
               <div class="separator"></div>
 
@@ -1000,7 +1012,7 @@
                   <img src="./assets/images/event-1.jpg" width="350" height="450" loading="lazy"
                     alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
 
-                  <time class="publish-date label-2" datetime="2022-09-15">15/09/2022</time>
+                  <time class="publish-date label-2" datetime="2026-01-15">15/01/2026</time>
                 </div>
 
                 <div class="card-content">
@@ -1087,16 +1099,16 @@
         <div class="footer-brand has-before has-after">
 
           <a href="#" class="logo">
-            <img src="./assets/images/logo.svg" width="160" height="50" loading="lazy" alt="grilli home">
+            <img src="./assets/images/logo.png" width="160" height="50" loading="lazy" alt="Flame & Fork - Home">
           </a>
 
           <address class="body-4">
             Restaurant St, Delicious City, London 9578, UK
           </address>
 
-          <a href="mailto:booking@grilli.com" class="body-4 contact-link">booking@grilli.com</a>
+          <a href="mailto:booking@flamefork.com" class="body-4 contact-link">booking@flamefork.com</a>
 
-          <a href="tel:+88123123456" class="body-4 contact-link">Booking Request : +88-123-123456</a>
+          <a href="tel:+919876543210" class="body-4 contact-link">Booking Request : +91 98765 43210</a>
 
           <p class="body-4">
             Open : 09:00 am - 01:00 pm
@@ -1183,8 +1195,8 @@
       <div class="footer-bottom">
 
         <p class="copyright">
-          &copy; 2022 Grilli. All Rights Reserved | Crafted by <a href="https://github.com/codewithsadee"
-            target="_blank" class="link">codewithsadee</a>
+          &copy; 2026 Flame & Fork. All Rights Reserved | Crafted by Mateti Rithvika
+
         </p>
 
       </div>
@@ -1218,6 +1230,47 @@
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+ 
+  <script>
+  const form = document.getElementById("reservationForm");
+  const nameInput = document.getElementById("name");
+  const phoneInput = document.getElementById("phone");
+  const dateInput = document.getElementById("date");
+  const message = document.getElementById("formMessage");
+
+  form.addEventListener("submit", function (e) {
+    e.preventDefault(); // stop page refresh
+
+    message.style.color = "red";
+
+    // Name validation
+    if (nameInput.value.trim() === "") {
+      message.textContent = "Please enter your name.";
+      return;
+    }
+
+    // Phone validation (10 digits)
+    if (!/^\d{10}$/.test(phoneInput.value)) {
+      message.textContent = "Please enter a valid 10-digit phone number.";
+      return;
+    }
+
+    // Date validation (future date)
+    const today = new Date();
+    const selectedDate = new Date(dateInput.value);
+
+    if (dateInput.value === "" || selectedDate <= today) {
+      message.textContent = "Please select a future reservation date.";
+      return;
+    }
+
+    // SUCCESS
+    message.style.color = "green";
+    message.textContent = "✅ Table booked successfully! We will contact you soon.";
+
+    form.reset();
+  });
+</script>
 
 </body>
 
